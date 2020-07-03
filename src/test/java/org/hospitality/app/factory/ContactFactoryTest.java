@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ContactFactoryTest {
-
+    
     @Test
     public void createContact() {
         Contact contact = ContactFactory.createContact("thokozile@gmail.com", "073");
